@@ -35,7 +35,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 }
 
-header h1 {
+header > h1 {
     color: white;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     margin-bottom: .5em;
@@ -44,7 +44,7 @@ header h1 {
     font-size: 3em;
 }
 
-header p {
+header > p {
     color: white;
     font-size: 1.2em;
     max-width: 500px;
@@ -59,7 +59,7 @@ nav {
     padding: .6em;
 }
 
-nav a {
+nav > a {
     text-decoration: none;
     color: white;
     border-radius: .5em;
@@ -68,7 +68,7 @@ nav a {
     padding: .6em;
 }
 
-nav a:hover {
+nav > a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
@@ -84,14 +84,14 @@ main {
     border-radius: 0 0 .3em .3em;
 }
 
-main h1 {
+main > h1 {
     color: var(--cor5);
     font-family: var(--fonte3);
     font-size: 2em;
     font-weight: normal;
 }
 
-main h2 {
+main > h2 {
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     font-size: 1.2em;
@@ -100,7 +100,7 @@ main h2 {
     text-indent: .5em;
 }
 
-main p {
+main > p {
     margin: 1em 0;
     font-size: 1em;
     text-align: justify;
@@ -108,11 +108,11 @@ main p {
     line-height: 1.5em;
 }
 
-main strong {
+main > strong {
     color: var(--cor3);
 }
 
-main a {
+main > a {
     text-decoration: none;
     color: var(--cor5);
     font-weight: bolder;
@@ -126,11 +126,11 @@ main a:hover {
     text-decoration: underline;
 }
 
-main img {
+main > img {
     width: 100%;
 }
 
-main img.principal__bugdroid {
+main > img.principal__bugdroid {
     max-width: 350px;
     display: block;
     margin: auto;
@@ -159,13 +159,13 @@ aside {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473)
 }
 
-aside ul {
+aside > ul {
     list-style-position: inside;
     list-style-type: '\1F5F8\00A0\00A0';
     columns: 2;
 }
 
-aside h3 {
+aside > h3 {
     font-weight: normal;
     background-color: var(--cor4);
     color: white;
@@ -183,12 +183,12 @@ footer {
     color: rgb(190, 186, 186);
 }
 
-footer a {
+footer > a {
     text-decoration: none;
     font-weight: bolder;
     color: white;
 }
 
-footer a:hover {
+footer > a:hover {
     text-decoration: underline;
 }
