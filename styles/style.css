@@ -128,6 +128,12 @@ article p {
     margin: auto;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
 
 aside {
     background-color: var(--cor2);
