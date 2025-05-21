@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+    }
+    nav ul {
+        padding-left: 16px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 16px;
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li:hover {
+        background-color: transparent;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    #hamburguer {
+        display: none;
+    }
+    article {
+        margin: 0 13em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav ul {
+        justify-content: space-around;
+    }
+}
