@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/media-queries.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo <br> Tech, em um único lugar</p>
@@ -86,6 +86,13 @@
         <p>Site construído por <a href="#" target="_blank">Ícaro Soares</a> para o <a href="#" target="_blank">Curso em Vídeo</a></p>
     </footer>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.displa = 'none'
+            }
+        }
         function clickMenu() {
             if (itens.style.display == 'none') {
                 itens.style.display = 'block'
