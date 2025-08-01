@@ -116,3 +116,22 @@ main article a::after {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+main article aside {
+    margin-bottom: 1em;
+    background-color: var(--cor3);
+    padding: 1.5em;
+    border-radius: 2em;
+}
+
+main article aside h3 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+main article aside ul {
+    margin-bottom: 1em;
+    list-style-type: '\2713';
+    list-style-position: inside;
+    columns: 2;
+}
