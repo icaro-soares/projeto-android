@@ -135,3 +135,20 @@ main article aside ul {
     list-style-position: inside;
     columns: 2;
 }
+
+footer {
+    margin-top: 1em;
+    padding: 1em 0;
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+footer p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
