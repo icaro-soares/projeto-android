@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    nav ul {
+        flex-flow: row nowrap;        
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li:hover {
+        background-color: #ebe5c580;
+    }
+}
