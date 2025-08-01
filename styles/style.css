@@ -70,6 +70,7 @@ main article{
     max-width: 1000px;
     margin: auto;
     padding: 1em;
+    border-radius: 0 0 1em 1em;
 }
 
 main article h1 {
@@ -118,6 +119,13 @@ main article a::after {
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 70%;
 }
 
 main article aside {
