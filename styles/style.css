@@ -57,7 +57,7 @@ header p {
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav ul {

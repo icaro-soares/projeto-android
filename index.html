@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo <br> Tech, em um único lugar</p>
     </header>
 
-    <span class="material-symbols-outlined" id="menu">menu</span>
+    <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span>
     <nav id="itens">
         <ul>
             <li><a href="#">Home</a></li>
@@ -75,5 +75,22 @@
     <footer>
         <p>Site criado por <a href="#" target="_blank">Ícaro Soares</a> para o <a href="#" target="_blank">CursoemVideo</a></p>
     </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == 'none') {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
