@@ -45,3 +45,17 @@ header p {
     font-weight: bold;
     font-size: 14px;
 }
+
+nav {
+    display: flex;
+    gap: 1em;
+    background-color: var(--cor5);
+    padding-left: 1em; 
+    padding-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
