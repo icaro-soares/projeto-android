@@ -16,3 +16,32 @@
     --fonte1: 'Bebas Neue', cursive;
     --fonte2: 'idroid', cursive;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor1);
+    font-family: var(--fonte0);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4), var(--cor5));
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    padding-bottom: .5em;
+    font: bold 2.5em var(--fonte1);
+    color: var(--cor0);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.450);
+}
+
+header p {
+    font-weight: bold;
+    font-size: 14px;
+}
