@@ -65,12 +65,12 @@ nav {
     padding-bottom: 1em;
 }
 
-nav ul {
+#itens {
     display: block;
     list-style: none;
 }
 
-nav li {
+#itens li {
     display: block;
     text-align: center;
     border: 3px solid white;
