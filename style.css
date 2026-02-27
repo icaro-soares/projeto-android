@@ -104,3 +104,32 @@ article h2 {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+aside {
+    background-color: var(--cor4);
+    margin: 1em 0;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+aside h3 {
+    font: bold 1.5em;
+    color: white;
+}
+
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside ul li {
+    margin: .5em 0;
+}
+
+footer {
+    background-color: var(--cor6);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
