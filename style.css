@@ -105,6 +105,17 @@ article h2 {
     margin-bottom: 1em;
 }
 
+article div {
+    background-color: var(--cor6);
+    margin: 0 -1em;
+}
+
+iframe {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
 aside {
     background-color: var(--cor4);
     margin: 1em 0;
