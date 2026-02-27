@@ -76,7 +76,7 @@ article {
 }
 
 article h1 {
-    font: bold 1.3em var(--fonte2);
+    font: bold 1.2em var(--fonte2);
     color: var(--cor6);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     padding-left: 1em;
