@@ -133,3 +133,15 @@ footer {
     padding: 1em;
     margin-top: 1em;
 }
+
+footer a {
+    padding: 0 .5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--cor3);
+    transition: .3s;
+}
