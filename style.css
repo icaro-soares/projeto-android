@@ -21,7 +21,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -64,7 +63,7 @@ nav a:hover {
 
 article {
     background-color: white;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 1em;
@@ -73,7 +72,7 @@ article {
 }
 
 article h1 {
-    font: bold 1.5em var(--fonte2);
+    font: bold 1.3em var(--fonte2);
     color: var(--cor6);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     padding-left: 1em;
