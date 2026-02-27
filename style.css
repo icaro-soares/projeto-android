@@ -61,3 +61,46 @@ nav a:hover {
     color: var(--cor3);
     transition: .3s;
 }
+
+article {
+    background-color: white;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+    border-radius: 0 0 .5em .5em;
+}
+
+article h1 {
+    font: bold 1.5em var(--fonte2);
+    color: var(--cor6);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+article h2 {
+    font: bold 1em var(--fonte2);
+    color: var(--cor6);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding-left: 1em;
+    margin: 1em 0;
+}
+
+.dandroids, .irina {
+    width: 100%;
+}
+
+.bugdroid {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
