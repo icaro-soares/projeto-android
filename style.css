@@ -89,6 +89,27 @@ article p {
     margin: 1em 0;
 }
 
+article strong {
+    color:var(--cor6);
+    font-weight: bolder;
+}
+
+article a {
+    background-color: yellow;
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor6);
+    padding: 0 1em;
+}
+
+article a::after {
+    content: '\1F517';
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
 article h2 {
     font: bold 1em var(--fonte2);
     color: var(--cor6);
