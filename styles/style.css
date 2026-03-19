@@ -79,7 +79,7 @@ article {
 
 article h1 {
     margin: 1em 0;
-    font: bold 1.8em var(--fonte2);
+    font: bold 1.5em var(--fonte2);
     background-image: linear-gradient(to right, var(--cor3), transparent);
     text-indent: 1em;
 }
@@ -174,10 +174,4 @@ footer a {
 footer a:hover {
     color: var(--hover);
     transition: .5s;
-}
-
-@media screen and (max-width: 768px) {
-    article h1 {
-        font-size: 1.1em;
-    }
 }
