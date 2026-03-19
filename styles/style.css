@@ -175,3 +175,9 @@ footer a:hover {
     color: var(--hover);
     transition: .5s;
 }
+
+@media screen and (max-width: 768px) {
+    article h1 {
+        font-size: 1.1em;
+    }
+}
